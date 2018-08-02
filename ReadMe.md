@@ -15,29 +15,20 @@ Inspirations ~  https://www.cs.utexas.edu/~scottm/  (for the humor, information)
 [x] indicates completed
 [] indicates to do
 
+[] Update info with website link                                              3
+    
+    AC: 1.  Update resume, linkedin, etc with link to website
+
 [] Get Logo                                                                   2
     
         AC: 1.  Logo is added to contact, tab, and navbar(?)
 
-[] Clean images                                                               3
-    
-        AC: 1. Images for my career are presented more clean
-            2. Hero image for welcoming
-[x] Research Hosting                                                           3
-
-        AC: 1. Look into hosting on github, UTCS, maybe hosting some projects
-
-
-
-Shelved:
-
-=======
-~ Fun section/other projects                                                3
+[] Fun section/other projects                                                 3
     
     AC: 1.  Another section is added for cool things I am working on/things I 
             am proud of not related to CS
 
-~ Courses of Interest/cool projects                                         3
+[] Courses of Interest/cool projects                                          3
     
     AC: 1.  Create a section for cool projects, host them or redirect to them
             These should be computer science projects 

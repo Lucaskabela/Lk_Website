@@ -88,17 +88,8 @@ h1, h2, h3{
   top: -50%;
 }
 
-#img1 {
-    border-style: solid;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: : auto;
-}
-
 #Career{
-    background-color: #EDF5E1;
+    background-color: #FFFFFF;
     min-height: 100%;
     margin: auto;
     padding: auto;
@@ -111,7 +102,7 @@ h1, h2, h3{
 
 #About{
     
-    background-image: url("https://lh3.googleusercontent.com/uXXX0ZXP8iRN7Hm9nYOd6Drds6c8TBVbg23TRkqDegkXoU_angEMyupF12eSYSsalt9sjOrr3DjNgyanxwWZo0pueVqX5sBU68UZQp4aHyUYJ5OvMrqPRglqIimgmd03MADJYbSbJA=w2400");
+    background-image: url("https://lh3.googleusercontent.com/QnU8tF9LX2d06x0lGoHCOqv_mGk6jTL4-n64Ep6UpVdnGqYcZJ5qW2FqNd1hJ5bWR9Ny23LyQrnPmYA0VAGI6ryF7SAuNxrU77hoya9DFgwgUG_wtILGb5MqlmC3aJdjKC-Y4o1SlA=w2400");
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
