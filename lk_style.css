@@ -24,10 +24,9 @@ h1, h2, h3{
 .hero-image {
 
     background-image: url("https://lh3.googleusercontent.com/uXXX0ZXP8iRN7Hm9nYOd6Drds6c8TBVbg23TRkqDegkXoU_angEMyupF12eSYSsalt9sjOrr3DjNgyanxwWZo0pueVqX5sBU68UZQp4aHyUYJ5OvMrqPRglqIimgmd03MADJYbSbJA=w2400");
+    
     /* Set a specific height */
-    height: 100%;
-
-    /* Position and center the image to scale nicely on all screens */
+    min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,11 +111,17 @@ h1, h2, h3{
 
 #Skills{
     background-color: #EDF5EF;
+    min-height: 100%;
+    margin: auto;
+    padding: auto;
 }
 
 #Contact{
    text-align: center;
    background-color: #379683;
+    min-height: 100%;
+    margin: auto;
+    padding: auto;
 }
 
 #Intro{
