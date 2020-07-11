@@ -2,6 +2,9 @@
 # Code for Website: 
 This repository host the html, css, and javascript code for my personal website.
 
+Note, this repo is also repeated at lucaskabela.github.io, but this is for my work in
+progress and trailing features.
+
 # Planning/Design:
 Inspirations ~  https://www.cs.utexas.edu/~scottm/  (for the humor, information)
                 http://texasacm.org/                (for the aesthetics)
@@ -14,14 +17,6 @@ Inspirations ~  https://www.cs.utexas.edu/~scottm/  (for the humor, information)
 
 [x] indicates completed
 [] indicates to do
-
-[] Update info with website link                                              3
-    
-    AC: 1.  Update resume, linkedin, etc with link to website
-
-[] Get Logo                                                                   2
-    
-        AC: 1.  Logo is added to contact, tab, and navbar(?)
 
 [] Fun section/other projects                                                 3
     
