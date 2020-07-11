@@ -21,22 +21,6 @@ h1, h2, h3{
 }
 
 
-.hero-image {
-
-    background-image: url("https://lh3.googleusercontent.com/uXXX0ZXP8iRN7Hm9nYOd6Drds6c8TBVbg23TRkqDegkXoU_angEMyupF12eSYSsalt9sjOrr3DjNgyanxwWZo0pueVqX5sBU68UZQp4aHyUYJ5OvMrqPRglqIimgmd03MADJYbSbJA=w2400");
-    
-    /* Set a specific height */
-    min-height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-    color: white;
-}
-
 #text-wrapper{
   position: absolute;
   top: 50%;
@@ -82,6 +66,7 @@ h1, h2, h3{
     margin-bottom: : auto;
 }
 
+
 .center-content{
   position: relative;
   top: -50%;
@@ -100,13 +85,14 @@ h1, h2, h3{
 }
 
 #About{
-    
-    background-image: url("https://lh3.googleusercontent.com/QnU8tF9LX2d06x0lGoHCOqv_mGk6jTL4-n64Ep6UpVdnGqYcZJ5qW2FqNd1hJ5bWR9Ny23LyQrnPmYA0VAGI6ryF7SAuNxrU77hoya9DFgwgUG_wtILGb5MqlmC3aJdjKC-Y4o1SlA=w2400");
-
+    background-color: #EDF5EF;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 100%;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+
 }
 
 #Skills{

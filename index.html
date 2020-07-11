@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+    <head profile="http://www.w3.org/2005/10/profile">
 
         <title>Lucas Kabela Homepage</title>
 
@@ -11,6 +11,9 @@
 
         <meta charset= "UTF-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--- Icons made by <a href="http://www.freepik.com/?__hstc=57440181.85fe0f30ff9448ad179206b743c3f056.1594351488666.1594351488666.1594351488666.1&__hssc=57440181.4.1594351488668&__hsfp=611629719" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> --->
+        <link rel="icon"  type="image/png" href="https://lh3.googleusercontent.com/o4yIGsTRdcUILyL_KdIfaiHOaVeIYOYIcsBgKDM4PQtWsdeNaFgfdhQIggrbVXuX1kUyMLd0pIUfdU-QeqW-mjWSQ-UwvX9ouMe7sctL33gN7j5nZ7CX5DQ8hlQ2SZ3Zs3LJFcC8Iw=s128-p-k">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -36,19 +39,23 @@
         <div id="About" class="row h-100 justify-content-center align-items-center slide"> 
             <div class = "container">
                 <div class="row">
-                    <div class="col-md-8 hero-text">
-                        <h3 style="color:white;">Hello!  My name is Lucas Kabela</h3>
+                    <div class="col-md-4 px-0">
+                         <img src= "https://lh3.googleusercontent.com/YevDtpaP_wva0XpIbkyecCvM23bHkubfGdhuQUnAlvYYAVuVgR9xgqrUGVlT4KVHghfhtDnCVFknKg2ATdzpmmKGAyH6wtwyIJ79c_LLk1M6n5eXh5SkQhWEYP7KV2GPvrBdLhidOg=w2400"
+                         alt="Picture of me smiling.  Welcome!"
+                        height="150" width="225" id="img0" class="float-md-left rounded img-responsive">
+                    </div>
+                    <div class="col-md-8">
+                        <h3 style="color:#05386B;">Hello!  My name is Lucas Kabela</h3>
                         <p></p>
                         <p> It seems you've stumbled across my personal website.  Welcome!</p>
                         <p> Allow me to tell you a bit about myself (or just use the navbar to skip to
                             the good stuff.)  </p>
-                        <p>I am a junior at the University of 
-                            Texas at Austin.  I am majoring in mathematics and computer science
-                            - yeah I am one of those nerds.  My hobbies include picking up and 
-                            dropping heavy things (weight lifting), creating and consuming 
-                            random bleeps and boops (music), and devouring ungodly amounts of 
-                            food (eating, but don't we all love that?).  I also really enjoy
-                            empowering others, whether that be through peer mentoring, teaching,
+                        <p>I am a Masters student at the University of 
+                            Texas at Austin.  I have a Bachelors of Science in Mathematics, and will be obtaining
+                            a Bachelors of Science and Masters of Science in Computer Science in May 2021.  My fields of 
+                            interest are Artificial Intelligence and Theory, with special interest in Program Synthesis and
+                            Natural Language Processing
+                        <p> I really enjoy empowering others, whether that be through peer mentoring, teaching,
                             or just giving advice (when solicited). I've also done some pretty cool things outside of
                             the classroom!  Keep scrolling to check them out.</p>
                     </div>
@@ -58,79 +65,84 @@
 
         <div id="Career" class="row justify-content-center align-items-center slide">
             <div class="container" id="CareerContent">
-                <h3>My Career</h3>
                 <div id="CareerKids">
+                    <h3>My Career</h3>
+                     <div class = "row justify-content-center align-items-center info-segment">
+                       <div class="col-md-8">
+                        <h4>Facebook AI Research</h4>
+                        <h5>Software Engineering Intern</h5>
+                        <h5>May 2020 - August 2020</h5>
+                        <p>I spent this summer as a research engineering intern contribute to the open source game <a href=https://ai.facebook.com/blog/introducing-light-a-multiplayer-text-adventure-game-for-dialogue-research/>LIGHT</a>, which is a text-based fantasy adventure game grounded providing data for grounded dialog settings in natural language processing. </p>
+
+                        <p>As a research engineering intern under the software engineering discipline, I combined four servers to one server in Python using Tornado and added frontend components in ReactJS which enabled users to save, load and manage custom worlds built in SQLite which I also implemented.
+                        </p>
+
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://lh3.googleusercontent.com/jyl8r0nSyPzFxQaVX_hjWbTsFB_2yC5lLaCDtEsM4JwiSjo4oRMA0psCrQRnarCKMiOr-o4GaTBM_ZyAQY4aILZjH92MNluZl00hP7MfxrUqO16wDc-tiZ6yjyKddizTOl3icks-KQ=w2400"
+                             alt="Lovely Photo of Facebook AI Research Logo"
+                            height="150" width="200" id="img6" class="float-md-right rounded">
+                        </div>
+                    </div>
+                     <div class = "row justify-content-center align-items-center info-segment">
+                       <div class="col-md-8">
+                        <h4>Facebook</h4>
+                        <h5>Software Engineering Intern</h5>
+                        <h5>May 2019 - August 2019</h5>
+                        <p>This summer I worked on a tool to automate neural network quantization in Pytorch.  This tool worked by using a variety of strategies such as greedy, heuristic, or exhaustive search to search over the space of quantized models and produce a set of models to the user, each with their runtime and top-1 accuracy.</p>
+                        <p>Using this tool on VGG-16, I was able to reduce the size of the model by roughly 3.7 times and reduce the runtime for inference by roughly 2 times at a less than 1% loss in accuracy.
+
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://lh3.googleusercontent.com/oPI5Wvb_p948xEGqrReVkRAzi9eVSUdzJ3xGrN8BRG5xGs2cNvQ2OEHOYUJ0T5JQCNwfF6SYW0ipoGi7m63iVijs_AdO85ESdcbKqoIag3zFu7rw1H6R6joUz9f9-EXDsupjN--_gg=w2400"
+                             alt="Lovely Photo of Pytorch"
+                            height="150" width="200" id="img6" class="float-md-right rounded">
+                        </div>
+                    </div>
                     <div class = "row justify-content-center align-items-center info-segment">
                        <div class="col-md-8">
-                        <h4>Toyota Connected</h4>
-                        <h5>Software Engineer Intern</h5>
+                        <h4>Toyota Connected: Project Goro</h4>
+                        <h5>Software Engineering Intern</h5>
                         <h5>May 2018 - August 2018</h5>
                         <p>As a backend software engineer intern, I contributed to a microservice architecture
-                           for a Telematics Service Platform (or TSP).  Instead of being assigned an intern 
-                           project like most tech companies, I was entrusted to work directly on the TSP code
-                           as an active member of a dev team.  I utilized Agile methodology and the Scrum framework
-                           in order to plan an execute several major task with my team.  Through the magic of kubernetes
-                           and docker and a lot of reading to learn what was going on, I was able to wrap my head 
-                           around the complex architecture and make some very valuable contributions!  </p>
+                           for a Telematics Service Platform (or TSP)</p>
                            <p>I executed a major
                            consolidation of 5 microservices into one, which required creating maven dependency files, 
                            a new suite of unit and integration test through junit, and a docker file and deployment pipeline.
-                           Additionally, part of this task was creating new controllers and endpoints for the api.  The other
-                           major task I executed was adding functionality for a device simulator.  </p>
-                           <p>Working with Go (the best
-                           programming language!), I added important functionality to a device simulator, such as simulating
+                           Additionally, part of this task was creating new controllers and endpoints for the api. </p>
+                           <p>Working with Go, I also added functionality to a device simulator, such as simulating
                            important vehicle events like collisions or customer request for assistance.  To further test our 
                            services and take advantage of this lightweight simulator, I wrote a script to execute hundreds of 
                            instances of the simulator in parallel.  This enabled load testing for our servers and saved countless
                            hours and resources - instead of getting a device and hooking it up to a testing bench one at a time, my work
-                           enabled developers to test their work through the press of a keyboard command.  Best Summer Ever!</p>
+                           enabled developers to test their work through the press of a keyboard command.</p>
 
                         </div>
                         <div class="col-md-4">
                             <img src="https://lh3.googleusercontent.com/g44mUdrEb_FtTGtobV5Dko2LhAM0SvdRS2qHj0KWGn9UgrFzR-_o8F2Yh9Zfuv7MXfJDiDYcpmWfIWK3w9Q0MCyMnQotZtzTjxpV4a1VSJGYJkMUkWgPWRTWaJSqOeHrMk9AIk1hxw=s200-p-k"
                              alt="Lovely Photo of Toyota Connected"
-                            height="150" width="150" id="img6" class="float-md-right rounded">
+                            height="150" width="175" id="img6" class="float-md-right rounded">
                         </div>
                     </div>
                     <div class="row justify-content-center align-items-center info-segment ">
                         <div class="col-md-8">
                             <h4>University of Texas at Austin</h4>
                             <h5>CS314 Undergraduate Proctor</h5>
-                            <h5>August 2017 - May 2018</h5>
+                            <h5>August 2017 - May 2019</h5>
                             <p>As an undergraduate proctor for my schools data structures course, which is taught in Java, I engaged with 20 students
                                 every week in an hourly discussion section that I lead  In these sections, I proctored quizzes
                                 and engaged students in discussing the proper answer to coding problems.</p>
-                            <p>Additionally, I held 2 hours of office hours every week
+                            <p>Additionally, I held 3 hours of office hours every week
                             where I aided students in difficult projects or conceptual questions.  This was by far my favorite part of 
-                            being a teaching assistant!  Interacting with and empowering students is one of the most rewarding activities 
-                            possible (even though I too am a student...)</p>
+                            being a teaching assistant! I was able to help explain concepts, provide debugging tips, and effectively review 
+                            code.</p>
                             <p>My other responsibilities included monitoring an online question forum to further engage students
-                             and grading projects, quizzes, and test for correctness and programming style</p>
+                             and grading and proctoring projects, quizzes, and test for correctness and programming style</p>
                         </div>
                         <div class="col-md-4">
                             <img src="https://lh3.googleusercontent.com/38KiiC--KhT1d-ThHUgAo8r9FoQp-8PIuLHRfVNi_q5p73-K8qiCfv3HidyC0L599bkRi-k86nGFVlRETue0tp3GFN4APNptdRwUb2TkDBGKGj6T3JLHlbxHHD7UzTfEzNBaWz2g7Q=w2400"
                              alt="Lovely Photo of UT hookem"
-                            height="150" width="150" id="img6" class="float-md-right rounded">
-                        </div>
-                    </div>
-                    <div class="row justify-content-center align-items-center info-segment">
-                           <div class="col-md-8">
-                            <h4>University of Houston Victoria</h4>
-                            <h5>Research Assistant</h5>
-                            <h5>June 2015 - August 2015</h5>
-                            <p>In my role as a research assistant I focused on the field of computer vision and parallel computing. 
-                            <p>My task for the summer was to augment computer vision processes through parallelization.  I utilized
-                                OpenCV and NVIDIA GPUS through CUDA in C++.  The end results saw filtering 
-                            task perform 20 times more efficently.</p>
-                            <p>This was my first career related work in computer science.  As my first experience in Computer Science, it 
-                                was highly related to mathematics due to the computer vision aspect.  This summer project is what really
-                                taught me that math and computer science are inseperable, and only augment each other!
-                            </div>
-                            <div class="col-md-4">
-                                 <img src="https://lh3.googleusercontent.com/Ve9k6g6QOxJu5bRnOxaVbONYqzLIUnnCCcGaN5R6SmMjHsy1y6RmANO8w4IZIsHzf_lTNkHFiL2US1Wjz5ToxMYiGqOm-LeRY54nsq8U4S-_0Eo2AON9JuoaTDu0nTcq6WNPS8M-1A=w2400"
-                                 alt="Lovely Photo of UHV"
-                                height="150" width="150" id="img4" class="float-md-right rounded">
-                            </div>
+                            height="150" width="175" id="img6" class="float-md-right rounded">
                         </div>
                     </div>
                 </div>
@@ -139,30 +151,28 @@
 
 
         <div id="Skills" class="row justify-content-center align-items-center slide">
-            <div class = "container">
+            <div class = "container-fluid">
                 <div class = "row justify-content-center">
                     <div class="col-md-6">
                         <h2 >My Skills</h2>
                         <p></p>
                         <h4>----Programming Languages----</h4>
-                        <p><b>Hardened Veteran (3+ years): </b> Java</p>
-                        <p><b>Seasoned Explorer (1 to 3 years): </b> C, HTML, CSS</p>
-                        <p><b>Youthful Novice (6 months to a year): </b> Go, Python</p>
-                        <p><b>Wee Lad (< 6 months): </b>JavaScript, C++</p>
-                        <p><b>Bonus: </b> Go has captured my heart, and is currently my favorite language</p>
+                        <p><b>3+ years experience in: </b> C, Java, Python</p>
+                        <p><b>1 to 3 years experience in: </b> Javascript, HTML, CSS</p>
+                        <p><b>6 months to 1 year experince in: </b> Agda, C++, Go, Haskell</p>
                         <p></p>
                         <h4>----Technologies, Tools, and Frameworks----</h4>
-                        <p><b>Craftsman: </b> Github, Agile, Scrum, Bash </p>
-                        <p><b>Journeyman: </b>Docker, Bootstrap, JUnit</p>
-                        <p><b>Apprentice: </b> Maven, SpringBoot </p>
+                        <p><b>3+ years experience in </b> Agile, Bash, Git, Pytorch </p>
+                        <p><b>1 to 3 years experience in: </b>Bootstrap, Docker, Kubernetes, React, SQLite</p>
+                        <p><b>6 months to 1 year experience in: </b>Maven, MongoDB, SpringBoot, Tornado </p>
                         <p></p>
                         <h4>----For More Information----</h4>
-                        <p>Download and view my <a href="https://drive.google.com/file/d/18BBNBThwMN8GBsaiJIrSkUFZ05CXSt1B/view?usp=sharing">resume</a></p>
+                        <p>View or download my <a href="https://drive.google.com/file/d/1Rh7raF7HI4r4a4hf3iBLd631ox9H_7hF/view?usp=sharing">resume</a></p>
                     </div>
                     <div class="col-md-5">
-                         <img src= "https://lh3.googleusercontent.com/Z2p2a4qFswnZTkpCR_3ppWgRh_UlQ3x8h55YYay12eLftcsShurRYPlY81Hp-w2yJj4JC2wiosTCMHgoSCl6PmAjZtacU6j_oIrmvxuh8MURgD2-nvvEaOHp3cM2S58g2VMz5Uqnng=w2400"
-                         alt= "Awesome photo of me smiling from hackathon"
-                        height="150" width="150" id="img4" class="rounded">
+                         <img src= "https://lh3.googleusercontent.com/oeDztXOreRzvCr6L7IqyyEEgWHJsfv1wxNrJpacQpt4Xgtu90avHLvyzJ7U-NudrLfAEcO3og2UIc99k2gMtQLo5rn7vk-ie9xz4PRs2EICPFgBBDdiAzqjOeIrsmAi8oSL432k1Cg=w2400"
+                         alt= "Awesome photo of me staring into distance"
+                        height="200" width="300" id="img4" class="rounded">
                     </div>
                 </div>
             </div>
@@ -175,7 +185,7 @@
                 <p><b>Like what you see?  Want to know my favorite places to eat?  Just want to chat?</b></p>
                 <p><b>Lets get in touch!</b></p>
                 <p></p>
-                <div class="row justify-content-center align-items-center"">
+                <div class="row justify-content-center align-items-center">
                     <div class = "col-md-6 col-md-offset-3">
                         <div class = "row">
                             <div id="LinkedIn" class = "logo-link">
@@ -188,7 +198,7 @@
                                      title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
                                  </div>
                                 -->
-                                <a href= "https://www.linkedin.com/in/lucas-kabela-b92883129" target="_blank" class = "media">
+                                <a href= "https://www.linkedin.com/in/lucaskabela" target="_blank" class = "media">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="49.652px" height="49.652px" viewBox="0 0 49.652 49.652" style="enable-background:new 0 0 49.652 49.652;" xml:space="preserve">
 
                                         <path d="M29.35,21.298c-2.125,0-3.074,1.168-3.605,1.988v-1.704h-4.002c0.052,1.128,0,12.041,0,12.041h4.002v-6.727     c0-0.359,0.023-0.72,0.131-0.977c0.29-0.72,0.948-1.465,2.054-1.465c1.448,0,2.027,1.104,2.027,2.724v6.442h4.002h0.001v-6.905     C33.958,23.019,31.983,21.298,29.35,21.298z M25.742,23.328h-0.025c0.008-0.014,0.02-0.027,0.025-0.041V23.328z"/>
